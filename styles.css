@@ -3,19 +3,44 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e0f7fa; /* Light cyan background */
 }
 
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    background-color: #ffffff; /* White background for container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2, h3 {
-    color: #333;
+h1 {
+    color: #00796b; /* Teal color for main heading */
+}
+
+h2 {
+    color: #004d40; /* Dark teal color for subheadings */
+    cursor: pointer; /* Pointer cursor to indicate clickable headings */
+}
+
+h3, h4 {
+    color: #00796b; /* Teal color for smaller headings */
+}
+
+p {
+    color: #004d40; /* Dark teal color for paragraph text */
 }
 
 strong {
-    color: #555;
+    color: #00796b; /* Teal color for strong text */
+}
+
+.hidden {
+    display: none; /* Hide elements with the hidden class */
+}
+
+.active {
+    color: #d32f2f; /* Red color for active headings */
 }

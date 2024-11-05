@@ -3,7 +3,11 @@ document.addEventListener('DOMContentLoaded', function() {
     
     headings.forEach(heading => {
         heading.addEventListener('click', () => {
-            heading.nextElementSibling.classList.toggle('hidden');
+            let nextElement = heading.nextElementSibling;
+            while (nextElement && nextElement.tagName !== 'H2') {
+                nextElement.classList.toggle('hidden');
+                nextElement = nextElement.nextElementSibling;
+            }
             heading.classList.toggle('active');
         });
     });
