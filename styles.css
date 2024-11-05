@@ -17,11 +17,11 @@ body {
 }
 
 h1 {
-    color: #00796b; /* Teal color for main heading */
+    color: #d81b60; /* Dark pink color for main heading */
 }
 
 h2 {
-    color: #004d40; /* Dark teal color for subheadings */
+    color: #f8bbd0; /* Light pink color for subheadings */
     cursor: pointer; /* Pointer cursor to indicate clickable headings */
 }
 
